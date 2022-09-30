@@ -1,4 +1,4 @@
-package com.ahmetsenocak.factorymethodAll.factorymethodchallange;
+package com.ahmetsenocak.factorymethod.factorymethodchallange;
 
 public class AnimalFactory {
     public static animals getAnimals(String animType) {

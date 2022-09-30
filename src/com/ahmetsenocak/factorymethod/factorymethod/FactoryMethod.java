@@ -1,4 +1,4 @@
-package com.ahmetsenocak.factorymethodAll.factorymethod;
+package com.ahmetsenocak.factorymethod.factorymethod;
 
 interface Shape {
     void draw();

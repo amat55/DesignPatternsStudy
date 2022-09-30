@@ -1,4 +1,4 @@
-package com.ahmetsenocak.factorymethodAll.factorymethodchallange;
+package com.ahmetsenocak.factorymethod.factorymethodchallange;
 
 interface animals {
     void eat();

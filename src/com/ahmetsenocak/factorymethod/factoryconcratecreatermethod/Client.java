@@ -1,4 +1,4 @@
-package com.ahmetsenocak.factorymethodAll.factoryconcratecreatermethod;
+package com.ahmetsenocak.factorymethod.factoryconcratecreatermethod;
 
 public class Client {
 

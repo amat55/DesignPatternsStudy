@@ -1,4 +1,4 @@
-package com.ahmetsenocak.abstractfactorypattern;
+package com.ahmetsenocak.abstractfactorypattern.Implementation;
 
 public abstract class AbstractFactory {
     abstract Color getColor(String color);

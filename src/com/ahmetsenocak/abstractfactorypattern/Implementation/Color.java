@@ -1,4 +1,4 @@
-package com.ahmetsenocak.abstractfactorypattern;
+package com.ahmetsenocak.abstractfactorypattern.Implementation;
 
 interface Color {
     void fill();

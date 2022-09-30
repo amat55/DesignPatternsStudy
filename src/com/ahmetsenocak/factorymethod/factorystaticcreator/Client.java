@@ -1,4 +1,4 @@
-package com.ahmetsenocak.factorymethodAll.factorystaticcreator;
+package com.ahmetsenocak.factorymethod.factorystaticcreator;
 
 public class Client {
     public static void main(String[] args) {

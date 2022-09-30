@@ -1,4 +1,4 @@
-package com.ahmetsenocak.abstractfactorypattern;
+package com.ahmetsenocak.abstractfactorypattern.Implementation;
 
 public class FactoryProducer {
     public static AbstractFactory getFactory(String choice) {

@@ -1,19 +1,19 @@
 package com.ahmetsenocak.abstractfactorypattern.challenge;
 
-public interface Hollywood {
-    void name();
+interface HollywoodInterface {
+    String getMovieName();
 }
 
-class HollywoodComedyMovie implements Hollywood{
+class HollywoodComedyMovie implements HollywoodInterface {
     @Override
-    public void name() {
-
+    public String getMovieName() {
+        return "Hollywood Comedy Movie is Bad Teacher  ";
     }
 }
 
-class HollywoodActionMovie implements Hollywood{
+class HollywoodActionMovie implements HollywoodInterface {
     @Override
-    public void name() {
-
+    public String getMovieName() {
+        return "Hollywood Action Movie is Avatar";
     }
 }

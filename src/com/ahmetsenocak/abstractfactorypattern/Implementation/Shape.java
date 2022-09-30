@@ -1,4 +1,4 @@
-package com.ahmetsenocak.abstractfactorypattern;
+package com.ahmetsenocak.abstractfactorypattern.Implementation;
 
 /*
 Abstract Factory Pattern says that just define an interface or abstract

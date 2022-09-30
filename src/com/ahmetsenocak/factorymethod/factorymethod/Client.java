@@ -1,4 +1,4 @@
-package com.ahmetsenocak.factorymethodAll.factorymethod;
+package com.ahmetsenocak.factorymethod.factorymethod;
 
 public class Client {
     public static void main(String[] args) {
