@@ -1,37 +1,40 @@
 package com.ahmetsenocak.abstractfactorypattern.challenge;
 
 interface MovieFactoryInterface {
-
-    HollywoodInterface getHollywoodInterface(String type);
-
-    BollywoodInterface getBollywoodInterface(String type);
-
+    HollyWoodMovieInterface GetHollyWoodMovie(String type);
+    BollyWoodMovieInterface GetBollyWoodMovie(String type);
 }
 
-class HollywoodMovieFactory implements MovieFactoryInterface {
-    public HollywoodInterface getHollywoodInterface(String type) {
-        if (type.equalsIgnoreCase("Action")) {
-            return new HollywoodActionMovie();
-        } else if (type.equalsIgnoreCase("Comedy")) {
-            return new HollywoodComedyMovie();
-        }
+class HollyWoodMovieFactory implements MovieFactoryInterface {
+    public HollyWoodMovieInterface GetHollyWoodMovie(String type)
+    {
+        if (type.equalsIgnoreCase("action"))
+            return new HollyWoodActionMovie();
+        else if (type.equalsIgnoreCase("comedy"))
+            return new HollyWoodComedyMovie();
+
+        return null;
     }
 
-    public BollywoodInterface getBollywoodInterface() {
+    public BollyWoodMovieInterface GetBollyWoodMovie(String type) {
         return null;
     }
 }
 
-class BollywoodMovieFactory implements MovieFactoryInterface {
-    public HollywoodInterface getHollywoodInterface(String type) {
+class BollyWoodMovieFactory implements MovieFactoryInterface {
+    public HollyWoodMovieInterface GetHollyWoodMovie(String type)
+    {
         return null;
     }
 
-    public BollywoodInterface getBollywoodInterface(String type) {
-        if (type.equalsIgnoreCase("Action")) {
-            return new BollywoodActionMovie();
-        } else if (type.equalsIgnoreCase("Comedy")) {
-            return new BollywoodComedyMovie();
-        }
+    public BollyWoodMovieInterface GetBollyWoodMovie(String type) {
+        if(type.equalsIgnoreCase("action"))
+            return new BollyWoodActionMovie();
+        else if (type.equalsIgnoreCase("comedy"))
+            return new BollyWoodComedyMovie();
+
+        return null;
     }
 }
+
+

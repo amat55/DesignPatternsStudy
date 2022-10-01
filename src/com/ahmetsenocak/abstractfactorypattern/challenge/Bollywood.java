@@ -1,20 +1,19 @@
 package com.ahmetsenocak.abstractfactorypattern.challenge;
 
-interface BollywoodInterface {
+interface BollyWoodMovieInterface {
     String getMovieName();
 }
 
-class BollywoodComedyMovie implements BollywoodInterface {
+class BollyWoodActionMovie implements BollyWoodMovieInterface {
     @Override
     public String getMovieName() {
-        return "Bolly wood Comedy Movie is Zero";
+        return "Bang Bang is a Bollywood Action Movie";
     }
 }
 
-class BollywoodActionMovie implements BollywoodInterface {
-
+class BollyWoodComedyMovie implements BollyWoodMovieInterface {
     @Override
     public String getMovieName() {
-        return "Bollywood Action Movie is Externals";
+        return "Munna Bhai MBBS is a Bollywood Comedy Movie";
     }
 }

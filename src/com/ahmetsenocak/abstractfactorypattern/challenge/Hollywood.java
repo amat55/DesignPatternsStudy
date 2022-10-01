@@ -1,19 +1,21 @@
 package com.ahmetsenocak.abstractfactorypattern.challenge;
 
-interface HollywoodInterface {
+interface HollyWoodMovieInterface {
     String getMovieName();
 }
 
-class HollywoodComedyMovie implements HollywoodInterface {
+class HollyWoodActionMovie implements HollyWoodMovieInterface {
     @Override
-    public String getMovieName() {
-        return "Hollywood Comedy Movie is Bad Teacher  ";
+    public String getMovieName()
+    {
+        return "True Lies is a Hollywood Action Movie";
     }
 }
 
-class HollywoodActionMovie implements HollywoodInterface {
+class HollyWoodComedyMovie implements HollyWoodMovieInterface {
     @Override
-    public String getMovieName() {
-        return "Hollywood Action Movie is Avatar";
+    public String getMovieName()
+    {
+        return "The Jerk is a Hollywood Comedy Movie";
     }
 }
